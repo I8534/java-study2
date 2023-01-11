@@ -1,0 +1,9 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  background-color: dodgerblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
