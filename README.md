@@ -38,7 +38,13 @@ open.addEventListener('click', open1)
 그 다음 close.addEventListener('click', close1)라는 것은 close라는 변수 즉 close-btn 클래스에 클릭을 하면 close1이 되게 해줘라는 것이다.
 
 
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
+그 다음 html에 온클릭이라는 것을 추가해줌으로서 알 수 있따.
 
-
+    <button onclick="close1()" class="close-btn">x</button>
+    
+    라고 입력을 하면 onclick시 즉 버튼을 클릭하면 close1이라는 함수가 작동을 하는 것이다. 
+    
+    명심해야 할 것이 onclick="close1"라고 입력하면 작동이 안 된다.
 
